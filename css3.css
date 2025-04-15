@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+<style>@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Underdog&display=swap');
+
+</style>#menu1 {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: auto;
+    z-index: 10;
+}
+
+#menu1 ul {
+    position: relative;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: auto;
+    list-style: none;
+    background-color:#882000;
+}
+
+#menu1>ul::after {
+    display: block;
+    width: 100%;
+    height: 0px;
+    clear: both;
+    content: " ";
+}
+
+#menu1 ul li {
+    position: relative;
+    display: block;
+    float: left;
+    width: auto;
+    height: auto;
+}
+
+#menu1 ul li a {
+    display: block;
+    padding: 9px 25px 0px 25px;
+    font-size: 25px;
+    line-height: 1.3em;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    height: px;
+    box-sizing: border-box;
+    color: black;
+    display: flex;
+}
+
+#menu1 ul li ul {
+    position: absolute;
+    top: 36px;
+    left: 0px;
+    display: none;
+    width: 200px;
+    background: #38b6ff;
+    border-radius: 15px;
+}
+
+#menu1 ul li:hover ul {
+    display: block;
+}
+
+#menu1 ul li ul li {
+    float: none;
+    width: 100%;
+}
+
+#menu1 ul li ul li a {
+    display: block;
+    text-transform: none;
+    height: auto;
+    padding: 7px 25px;
+    width: 100%;
+    box-sizing: border-box;
+    border-top: 1px solid #ffffff;
+
+}
+.text{
+    color: #ffffff;
+}
+header,
+footer {
+    background-color:#882000;
+    padding: 10px;
+    height: 400px;
+    align-items: center;
+    width: 2000px;
+    display: flex;
+    justify-content:center ;
+}
+
+main {
+    padding: 10px;
+    background-color:#882000;
+    width: 2000px;
+}
+
+.post {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 0px;
+    display: flex;
+    height: 450px;
+}
+
+.post img {
+    margin: 20px;
+}
+
+.footer-columns {
+    display: flex;
+    width: 1920px;
+
+}
+
+.footer-column {
+    flex: 50%;
+    margin: 20px;
+}
+
+.carousele {
+    margin: 10px;
+}
+
+.carousele div img {
+    width: 100%
+}
+
+ul {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+#onepoint:hover {
+    transform: scale(1);
+    box-shadow: 0px 10px 25px 2px rgba(0, 0, 0);
+    border-radius: 8px;
+
+}
+
+#onepoint2:hover {
+    transform: scale(1);
+    box-shadow: 0px 10px 25px 2px rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
+#onepoint3:hover {
+    transform: scale(1);
+    box-shadow: 0px 10px 25px 2px rgba(0, 0, 0);
+    border-radius: 8px;
+}
+
+#onepoint4:hover {
+    transform: scale(1);
+    box-shadow: 0px 10px 25px 2px rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
+#onepoint5:hover {
+    transform: scale(1);
+    box-shadow: 0px 20px 25px 2px rgb(0, 0, 0);
+    border-radius: 8px;
+}
+.point{
+    box-shadow: 0px 5px 5px 1px rgb(0, 0, 0);
+ 
+}
+.point{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    width: 175px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.spisoc{
+    margin-top: 25px;
+}
+#car{
+padding-top: 90px;
+}
+.point1{
+    box-shadow: 0px 5px 5px 1px rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    
+}
+.dos{
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    height: 175px;
+    margin-top: 5px;
+    width: 750px;
+    display: flex;
+    
+}
+#onas{
+    display: flex;
+    justify-content: center;
+}
+.dos1{
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    display: flex;
+    height: 50px;
+    margin-top: 5px;
+    justify-content: center;
+    
+}
+.tex{
+    width: 750px;
+    
+}
+.name{
+    display: flex;
+    justify-content: center;
+}
